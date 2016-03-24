@@ -21,7 +21,7 @@ elseif (array(1) == 1) && (array (2) == 0) && (array(3) == 1) && (array (4) == 1
 elseif (array(1) == 1) && (array (2) == 1) && (array(3) == 0) && (array (4) == 0) && (array(5) == 0) && (array (6) == 0) && (array(7) == 0) && (array (8) == 0) 
     disp('NAK')    
 elseif (array(1) == 1) && (array (2) == 1) && (array(3) == 0) && (array (4) == 0) && (array(5) == 0) && (array (6) == 0) && (array(7) == 0) && (array (8) == 1) 
-    y = ['Req_RN. The other data bits are: ', num2str(array(2:40))]; 
+    y = ['Req_RN. The other data bits are: ', num2str(array(9:40))]; 
     disp(y);
 elseif (array(1) == 1) && (array (2) == 1) && (array(3) == 0) && (array (4) == 0) && (array(5) == 0) && (array (6) == 0) && (array(7) == 1) && (array (8) == 0) 
     y = ['Read. The other data bits are: ', num2str(array(9:100))]; 
